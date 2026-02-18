@@ -1,5 +1,4 @@
 # Reto-abstract-Factory
-# 🧩 Reto: Abstract Factory UI Toolkit
 
 ¡Bienvenido al reto de Patrones de Diseño! 
 
