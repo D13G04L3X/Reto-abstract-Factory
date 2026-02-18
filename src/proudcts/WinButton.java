@@ -1,7 +1,10 @@
+package src.products;
+import src.interfaces.Button;
+
 public class WinButton implements Button {
     @Override
     public void paint() {
-        // TODO: Implementar la impresión en consola para Windows
-        System.out.println("Error: Método no implementado");
+        // TODO: Implementar renderizado estilo Windows (ej. borde cuadrado)
+        System.out.println("Renderizando un botón estilo Windows.");
     }
 }
