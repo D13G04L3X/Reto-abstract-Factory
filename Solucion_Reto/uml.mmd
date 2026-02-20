@@ -1,0 +1,20 @@
+classDiagram
+    class UIFactory {
+        <<interface>>
+        +createButton()
+        +createCheckbox()
+    }
+    class Button {
+        <<interface>>
+        +paint()
+    }
+    class Checkbox {
+        <<interface>>
+        +render()
+    }
+    UIFactory <|.. WinFactory
+    UIFactory <|.. MacFactory
+    Button <|.. WinButton
+    Button <|.. MacButton
+    Checkbox <|.. WinCheckbox
+    Checkbox <|.. MacCheckbox
